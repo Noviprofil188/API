@@ -27,7 +27,7 @@ axios.get(url)
             const city = cities.find(c => c.GradIme[0] === cityName);
 
             if (!city) {
-                console.error('Grad pronađen.');
+                console.error('Grad nije pronađen.');
                 process.exit(1);
             }
 
